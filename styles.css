@@ -1,8 +1,8 @@
 body{
     font-family: 'Oswald',sans-serif;
-    color :black;
+    color : #e8e8e8;
     font-size : 20px;
-    background-color : black;
+    background-color : #1f1f1f;
     text-align : center;
 }
 
@@ -12,10 +12,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black
+    background-color: #1f1f1f;
 }
 
 .search-form {
+    background-color : #444746;
     text-align : center;
     border-radius : .25rem;
 }

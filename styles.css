@@ -6,6 +6,12 @@ body{
     text-align : center;
 }
 
+  header {
+    background-color: black;
+    color: white;
+    min-height : 70px;
+    padding-top: 20px;
+}
 .container {
     display : flex;
     justify-content: center;

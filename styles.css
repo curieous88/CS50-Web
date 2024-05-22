@@ -24,13 +24,13 @@ header nav{
 
 }
 
-header a{
+/* header a{
     font-size : 16px;
     font-weight : 200;
     cursor : pointer;
     padding : 10px 20px 10px 20px ;
     color : white;
-}
+} */
 
 header li{
     float : left;

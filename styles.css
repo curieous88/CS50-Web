@@ -11,8 +11,7 @@ body{
     display : flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    background-color: #444746;
+    height: 100vh;
 }
 
 .search-form {

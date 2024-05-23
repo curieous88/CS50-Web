@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+body{
+    font-family: 'Oswald',sans-serif;
+    color :white;
+    font-size : 20px;
+}
+=======
 
   @media(max-width :  @screen-sm-min){
     header #sitename,
@@ -60,3 +67,5 @@ header li{
 
 
 
+
+>>>>>>> a99f760506f458cc5656cc8dfc1624479e9a9cf8

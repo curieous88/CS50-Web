@@ -30,11 +30,10 @@ body{
 
   .search-button {
     background-color : #444746;
-    text-align : center;
     border-radius : 50rem;
-    width : 50px;
-    height: 10px;
-    align : float;
+    display : flex;
+    justify-content: center;
+    align-items: center;
 }
   
 header {

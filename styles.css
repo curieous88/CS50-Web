@@ -19,6 +19,7 @@ body{
     display : flex;
     justify-content: center;
     align-items: center;
+    margin : auto;
 /*     height: 100vh; */
 }
 
@@ -34,7 +35,8 @@ body{
     display : flex;
     justify-content: center;
     align-items: center;
-    height : 100vh;
+/*     height : 100vh; */
+    margin : auto;
 }
   
 header {

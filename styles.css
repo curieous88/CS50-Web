@@ -27,6 +27,12 @@ body{
     text-align : center;
     border-radius : 1rem;
 }
+
+  .search-button {
+    background-color : #444746;
+    text-align : center;
+    border-radius : 1rem;
+}
   
 header {
     background-color: black;

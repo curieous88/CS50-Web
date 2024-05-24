@@ -19,7 +19,7 @@ body{
     display : flex;
     justify-content: center;
     align-items: center;
-/*     height: 100vh; */
+    height: 100vh;
 }
 
 .search-form {
@@ -29,11 +29,12 @@ body{
 }
 
   .search-button {
-    background-color : #444746;
+/*     background-color : #444746; */
     border-radius : 50rem;
     display : flex;
     justify-content: center;
     align-items: center;
+    height : 100vh;
 }
   
 header {

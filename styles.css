@@ -16,16 +16,18 @@ body{
 
 }
 
-.search-form {
+.search-bar{
     background-color : #444746;
     text-align : center;
+    border : 1px solid white;
     border-radius : 1rem;
+    margin- bottom : 10px;
+    padding : 10px;
+    border-radius : 5px;
 }
 
   .search-button {
-    border-radius : 50rem;
-
-    
+    border-radius : 5px;
 }
   
 header {

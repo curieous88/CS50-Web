@@ -40,9 +40,9 @@ header {
     padding-top : 10px;
 }
 
-header nav  {
+/* header nav  {
     float : right;
-}
+} */
 
 header a{
     font-size : 12px;
@@ -53,7 +53,7 @@ header a{
 }
 
 header li{
-    float : right;
+    float : left;
     display : inline;
     padding-right : 5px;
 

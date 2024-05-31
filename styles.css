@@ -60,12 +60,21 @@ header li{
 }
 
 span {
-    margin-top : 50;
+    margin-top : 500px;
     padding : 20px;
     color : white;
     text-align : left;
     font : 20px;
     display: table-cell;
+}
+
+.table-form{
+    max-width : 1100px;
+    min-width : 200px;
+    width : 96%;
+    margin : 40px 0px 45px 0 px;
+    
+    
 }
     
 

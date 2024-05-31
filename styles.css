@@ -59,10 +59,11 @@ header li{
 
 }
 
-h3{
+h{
     margin : 50px;
     color : white;
-    text : left-aligned;
+    text-align : left;
+    font : 20px;
 }
     
 

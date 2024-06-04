@@ -71,6 +71,16 @@ span {
     display: table-cell;
 }
 
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+}
 .table-form {
     margin-bottom: 15px;
 }

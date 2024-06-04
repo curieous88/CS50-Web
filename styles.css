@@ -88,7 +88,8 @@ span {
 .table-form label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    color : white
+    font : 14px;
 }
 
 

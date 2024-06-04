@@ -71,18 +71,16 @@ span {
     display: table-cell;
 }
 
-.table-form{
-    max-width : 1100px;
-    min-width : 200px;
-    width : 96%;
-    margin-top : 70px;
-    background color : white;
+.table-form {
+    margin-bottom: 15px;
 }
 
-label{
-    font : white;
-    }
-    
+.table-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 
 
 

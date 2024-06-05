@@ -75,27 +75,22 @@ span {
 
 .form-container {
     max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
     background-color: black;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 25px;
+    padding: 10px 15px;
 
 }
 
-h3{
-    color : white;
-}
 
 .table-form {
     margin-bottom: 15px;
 }
 
 .table-form label {
-    display: block;
+    margin-right : 20px;
     margin-bottom: 5px;
     color : white;
-    font : 14px;
+    font : 16px;
 }
 
 

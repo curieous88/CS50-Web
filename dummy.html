@@ -3,64 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Advanced Search</title>
-    <link rel="stylesheet" href="dummy.css">
+    <title>Search Bar Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Google Advanced Search</h1>
-        <form action="https://www.google.com/search" method="get">
-            <div class="form-group">
-                <label for="all-words">Find pages with...</label>
-                <input type="text" id="all-words" name="as_q" placeholder="all these words">
-            </div>
-            <div class="form-group">
-                <input type="text" id="exact-phrase" name="as_epq" placeholder="this exact word or phrase">
-            </div>
-            <div class="form-group">
-                <input type="text" id="any-words" name="as_oq" placeholder="any of these words">
-            </div>
-            <div class="form-group">
-                <input type="text" id="none-words" name="as_eq" placeholder="none of these words">
-            </div>
-            <div class="form-group">
-                <label for="site-search">Search within a site or domain:</label>
-                <input type="text" id="site-search" name="as_sitesearch" placeholder="example.com">
-            </div>
-            <div class="form-group">
-                <label for="file-type">File type:</label>
-                <select id="file-type" name="as_filetype">
-                    <option value="">Any format</option>
-                    <option value="pdf">PDF</option>
-                    <option value="doc">Microsoft Word</option>
-                    <option value="xls">Microsoft Excel</option>
-                    <!-- Add more file types as needed -->
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="language">Language:</label>
-                <select id="language" name="lr">
-                    <option value="">Any language</option>
-                    <option value="lang_en">English</option>
-                    <option value="lang_es">Spanish</option>
-                    <option value="lang_fr">French</option>
-                    <!-- Add more languages as needed -->
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="last-update">Last update:</label>
-                <select id="last-update" name="as_qdr">
-                    <option value="">Any time</option>
-                    <option value="d">Past 24 hours</option>
-                    <option value="w">Past week</option>
-                    <option value="m">Past month</option>
-                    <option value="y">Past year</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <button type="submit">Advanced Search</button>
-            </div>
-        </form>
+    <div class="search-container">
+        <label for="search" class="search-label">Search:</label>
+        <input type="text" id="search" class="search-input" placeholder="Type something...">
     </div>
 </body>
 </html>

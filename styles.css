@@ -73,14 +73,14 @@ span {
 }
 
 
-/* .form-container {
-    max-width: 600px;
+.form-container {
+/*     max-width: 600px; */
     background-color: black;
     border-radius: 25px;
     padding: 10px 15px;
 
 }
- */
+
 
 .table-form {
     margin-bottom: 15px;

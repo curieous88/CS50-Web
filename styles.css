@@ -87,10 +87,11 @@ span {
 }
 
 .form-container label {
-/*     margin-right : 20px; */
+    margin-right : 20px;
     margin-bottom: 5px;
+    margin-left : 0;
     color : white;
-    font : 36px;
+    font : 16px;
 }
 
 

@@ -63,13 +63,8 @@ header li{
 
 }
 
-span {
-    margin-top : 1500px;
-    padding : 20px;
+h3{
     color : white;
-    text-align : left;
-    font : 20px;
-    display: table-cell;
 }
 
 

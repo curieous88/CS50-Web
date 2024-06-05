@@ -11,7 +11,7 @@ body{
 
 .container {
     display : flex;
-/*     flex-direction:column; */
+    flex-direction:column;
     justify-content : center;
     align-items : center;
 
@@ -81,6 +81,11 @@ span {
     border-radius: 8px;
 
 }
+
+h3{
+    color : white;
+}
+
 .table-form {
     margin-bottom: 15px;
 }

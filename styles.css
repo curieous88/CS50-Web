@@ -50,14 +50,14 @@ header {
     text-align : center;
 }
 
-/* header a{
+header a{
     font-size : 12px;
     font-weight : 80;
     cursor : pointer;
     padding : 10px 20px ;
     color : white;
 }
- */
+
 nav ul li{
     float : left;
     display : inline;

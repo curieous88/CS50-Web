@@ -24,42 +24,35 @@
  <div class="form-container">
         <h3>Find pages with...</h3>
 </div>
-             
-    <div class="form-container">
-        <form action="https://www.google.com/search">
-        <label>all these words: </label>
-        <input action= type="text" name="as_q" >
-        </form>
-    </div>
+
+    <form action="https://www.google.com/search" method="get">
+        <div class="form-container">
+            <label>all these words: </label>
+            <input action= type="text" name="as_q" >
+        </div>
+        
+        <div class="form-container">
+            <label>this exact word or phrase: </label>
+            <input type="text"name="as_epq">
+        </div>
     
-    <div class="form-container">
-        <form action="https://www.google.com/search">
-        <label>this exact word or phrase: </label>
-        <input type="text"name="as_epq">
-        </form>
-    </div>
-
-      <div class="form-container">
-        <form action="https://www.google.com/search">
-        <label>any of these words: </label>
-        <input type="text"name="as_oq">
-        </form>
-    </div>
-
-     <div class="form-container">
-        <form action="https://www.google.com/search">
-        <label>none of these words: </label>
-        <input type="text"name="as_eq">
-        </form>
-    </div>
-
-       <div class="form-container">
-        <form action="https://www.google.com/search">
-        <label>numbers ranging from: </label>
-        <input type="number" name="as_nlo">
-        <input type="number" name="as_nhi">
-        </form>
-    </div>
+          <div class="form-container">
+            <label>any of these words: </label>
+            <input type="text"name="as_oq">
+        </div>
+    
+         <div class="form-container">
+            <label>none of these words: </label>
+            <input type="text"name="as_eq">
+        </div>
+    
+        <div class="form-container">
+            <label>numbers ranging from: </label>
+            <input type="number" name="as_nlo">
+            <input type="number" name="as_nhi">
+        </div>
+    </form>
+    
 
 </body>
 

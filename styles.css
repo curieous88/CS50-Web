@@ -112,6 +112,8 @@ span{
     font-size :11px
     text-align : center;
     font-weight : bold;
+    padding-block: 1px;
+    padding-inline: 6px;
     }
     
 

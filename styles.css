@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Oswald',sans-serif;
-/*     display : flex;  */
+    display : flex; 
     justify-content : center;
     align-items : center;
     height : 100vh;
@@ -74,7 +74,7 @@ nav ul li{
 
 }
 
-h3{
+.form-container h3{
     color : white;
     font-size : 13px;
 }

@@ -20,12 +20,13 @@ body{
 
 .search-bar{
     width : 300px;
+    width : 100%;
     text-align : center;
     margin-bottom : 20px;
     padding : 10px;
     border-radius : 25px;
     font-size : 20px;
-    background-color : #202124;
+    background: #202124;
     border: 1px solid #5f6368;
     color: #bdc1c6;
 }

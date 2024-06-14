@@ -18,43 +18,42 @@
             </nav>
     </header>
 
-    <div class="body-form">
+    <div>
         <div class="form-container">
             <h3>Find pages with...</h3>
-       
-        <form action="https://www.google.com/search" method="get">
-            <div class="form-container">
-                <label>all these words: </label>
-                <input action= type="text" name="as_q" >
-            </div>
+           
+            <form action="https://www.google.com/search" method="get">
+                <div class="form-container">
+                    <label>all these words: </label>
+                    <input action= type="text" name="as_q" >
+                </div>
+                
+                <div class="form-container">
+                    <label>this exact word or phrase: </label>
+                    <input type="text"name="as_epq">
+                </div>
             
-            <div class="form-container">
-                <label>this exact word or phrase: </label>
-                <input type="text"name="as_epq">
-            </div>
+                  <div class="form-container">
+                    <label>any of these words: </label>
+                    <input type="text"name="as_oq">
+                </div>
+            
+                 <div class="form-container">
+                    <label>none of these words: </label>
+                    <input type="text"name="as_eq">
+                </div>
+            
+                <div class="form-container">
+                    <label>numbers ranging from: </label>
+                    <input type="number" name="as_nlo">
+                    <span>to</span>
+                    <input type="number" name="as_nhi">
+                </div>
         
-              <div class="form-container">
-                <label>any of these words: </label>
-                <input type="text"name="as_oq">
-            </div>
-        
-             <div class="form-container">
-                <label>none of these words: </label>
-                <input type="text"name="as_eq">
-            </div>
-        
-            <div class="form-container">
-                <label>numbers ranging from: </label>
-                <input type="number" name="as_nlo">
-                <span>to</span>
-                <input type="number" name="as_nhi">
-            </div>
-    
-            <div class="form-container">
-                <button class="advanced-search-button" type="submit">Advanced Search</button>
-            </div>
-        </form>
-    
+                <div class="form-container">
+                    <button class="advanced-search-button" type="submit">Advanced Search</button>
+                </div>
+            </form>        
         </div
     </div>
 

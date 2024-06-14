@@ -115,7 +115,7 @@ span{
     float : right;
     }
 
-    .advanced-search-button :: hover {
+    .advanced-search-button : hover {
       background-color : #aecbfa;
     }
     

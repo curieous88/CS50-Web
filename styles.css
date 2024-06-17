@@ -20,7 +20,7 @@ body{
 
 .search-bar{
     width : 300px;
-    width : 100%;
+/*     width : 100%; */
     text-align : center;
     margin-bottom : 20px;
     padding : 10px;

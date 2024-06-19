@@ -24,7 +24,8 @@ body{
     
 .search-bar{
 /*     max-width : 300px; */
-    width : 100%;
+    display : inline-block;
+    width : 50%;
     text-align : left;
     margin-bottom : 20px;
     font-size : 20px;

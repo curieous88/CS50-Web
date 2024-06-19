@@ -5,11 +5,12 @@ body{
 }
 
 #top-nav{
-       display : flex; 
+    display : flex; 
     justify-content : flex-end;
     flex-drection : row;
+    width : 100%;
 /*     align-items : center; */
-    height : 100vh;
+/*     height : 100vh; */
     margin : 0;}
 
 

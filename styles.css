@@ -12,14 +12,6 @@ body{
     align-items : center;
     margin : 0;}
 
-
-/* .container {
-    display : flex;
-    flex-direction:column;
-    justify-content : center;
-    align-items : center;
-
-} */
 #search-form{
     display : flex;
     justify-content : center;
@@ -31,16 +23,16 @@ body{
     
     
 .search-bar{
-    width : 300px;
-/*     width : 100%; */
-    text-align : center;
+    max-width : 300px;
+    width : 100%;
+    text-align : left;
     margin-bottom : 20px;
     padding : 10px;
     border-radius : 25px;
     font-size : 20px;
-/*     background: #202124;
+    background: #202124;
     border: 1px solid #5f6368;
-    color: #bdc1c6; */
+    color: #bdc1c6;
 }
 
   .search-button {

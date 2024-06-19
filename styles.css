@@ -23,14 +23,15 @@ body{
     
     
 .search-bar{
-/*     max-width : 300px; */
+    min-width: 167 px;
+    min-height: 41 px;
     display : inline-block;
-    width : 50%;
+    width : 32%;
     text-align : left;
     margin-bottom : 20px;
     font-size : 20px;
     background: #202124;
-    border: 1px solid #5f6368;
+    border: 1 px solid #5f6368;
     color: #bdc1c6;
 }
 

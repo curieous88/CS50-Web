@@ -24,7 +24,7 @@ body{
     
 .search-bar{
     min-width: 167px;
-    min-height: 41px;
+    min-height: 25px;
     display : inline-block;
     width : 32%;
     text-align : left;

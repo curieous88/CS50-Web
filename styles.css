@@ -28,7 +28,16 @@ body{
     font-size : 20px;
     background: #202124;
 }
-    
+
+
+  .search-button {
+    width : 150px;
+    font-size : 20px;
+    border-radius : 5px; 
+    cursor : pointer;
+    align-self: center;
+}
+        
 .search-bar{
     min-width: 167px;
     min-height: 25px;
@@ -39,14 +48,6 @@ body{
     background: #202124;
     border: 1px solid #5f6368;
     color: #bdc1c6;
-}
-
-  .search-button {
-    width : 150px;
-    font-size : 20px;
-    border-radius : 5px; 
-    cursor : pointer;
-    align-self: center;
 }
   
 header {

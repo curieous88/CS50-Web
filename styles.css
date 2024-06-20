@@ -46,7 +46,7 @@ body{
     font-size : 20px;
     border-radius : 5px; 
     cursor : pointer;
-    align-item : center;
+    align-self: center;
 }
   
 header {

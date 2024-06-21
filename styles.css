@@ -22,7 +22,7 @@ body{
     height:100%}
     
 #search-input{
-/*     display : inline-block; */
+    display : inline-block;
     width : 50%;
     text-align : left;
     font-size : 20px;
@@ -31,6 +31,7 @@ body{
 
 
   .search-button {
+    display : inline-block;
     width : 150px;
     font-size : 20px;
     border-radius : 5px; 

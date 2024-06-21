@@ -69,7 +69,7 @@ nav ul li{
     font-size : 20px;
     border-radius : 5px; 
     cursor : pointer;
-    align-self: flex-start;
+    align-self: center;
 }
         
 .search-bar{

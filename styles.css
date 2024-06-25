@@ -98,6 +98,12 @@ nav ul li{
 
 }
 
+.table{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+}
 
 .form-container label {
     margin-right : 20px;

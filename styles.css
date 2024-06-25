@@ -108,7 +108,7 @@ nav ul li{
 .form-container label {
     margin-right : 20px;
     margin-bottom: 5px;
-    margin-left : 0;
+    margin-left : 20;
     color : #bdc1c6;
     font-size : 11px;
 }

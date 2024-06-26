@@ -76,7 +76,7 @@ nav ul li{
     min-width: 167px;
     min-height: 25px;
     display : inline-block;
-    width : 32%;
+    width : 50%;
     text-align : left;
     font-size : 20px;
     background: #202124;
@@ -129,7 +129,7 @@ span{
 .advanced-search-button{
     margin-left : 0 auto;
     height : 30px;
-    min-width : 120px;
+/*     min-width : 120px; */
     background-color: #8ab4f8;
     border-color : #8ab4f8;
     color : #202124;

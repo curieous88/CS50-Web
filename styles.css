@@ -76,13 +76,29 @@ nav ul li{
     min-width: 167px;
     min-height: 25px;
     display : inline-block;
-    width : 50%;
+    width : 32%;
     text-align : left;
     font-size : 20px;
     background: #202124;
     border: 1px solid #5f6368;
     color: #bdc1c6;
+    vertical-align : middle;
 }
+
+
+    .split-search-bar{
+        min-width: 167px;
+        min-height: 25px;
+        display : inline-block;
+        width : 50%;
+        text-align : left;
+        font-size : 20px;
+        background: #202124;
+        border: 1px solid #5f6368;
+        color: #bdc1c6;
+        vertical-align : middle;
+    }
+        
   
 
 .form-container h3{
@@ -102,7 +118,7 @@ nav ul li{
     display: grid;
     grid-template-columns: auto 2fr;
     grid-column-gap: 15px;
-    grid-row-gap: 5px;
+    grid-row-gap: 15px;
 }
 
 .form-container label {

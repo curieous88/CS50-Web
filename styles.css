@@ -127,6 +127,7 @@ span{
 }
 
 .advanced-search-button{
+    margin-left : 0 auto;
     height : 30px;
     min-width : 120px;
     background-color: #8ab4f8;

@@ -127,6 +127,8 @@ span{
 }
 
 .advanced-search-button{
+    display : flex;
+    justify-content : flex-end;
     height : 30px;
     min-width : 120px;
     background-color: #8ab4f8;

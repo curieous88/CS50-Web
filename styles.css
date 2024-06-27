@@ -148,6 +148,7 @@ span{
 .advanced-search-button{
     display : flex;
     justify-self : flex-end;
+    justify-content : center;
     height : 30px;
     width : 25%;
     min-width : 60px;

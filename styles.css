@@ -146,9 +146,10 @@ span{
 }
 
 .advanced-search-button{
-    margin-left : 0 auto;
+    display : flex;
+    justify-self : flex-end;
     height : 30px;
-    width : 50%;
+    width : 25%;
     min-width : 60px;
     background-color: #8ab4f8;
     border-color : #8ab4f8;
@@ -159,7 +160,7 @@ span{
     font-size :11px;
     text-align : center;
     font-weight : bold;
-    float : right;
+
     }
 
     .advanced-search-button : hover {

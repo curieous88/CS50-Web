@@ -121,7 +121,6 @@ nav ul li{
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     width : 90%;
-    margin-left : 30px;
 }
 
 .form-container label {

@@ -27,6 +27,8 @@ header nav{
  header h3{
     color : #d93025;
     margin-left : 30px;
+    font-size : 30px;
+
 }
 
  nav ul {
@@ -110,7 +112,7 @@ nav ul li{
 
 .table h3{
     color : #bdc1c6;
-    font-size : 13px;
+    font-size : 15px;
 }
 
 

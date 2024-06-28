@@ -15,16 +15,16 @@ body{
 header {
     background-color: #202124;
     height : 70px;
-    margin-bottom : 20px;
-    border-bottom :1px;
+    margin-bottom : 30px;
     border: 1px solid #5f6368;
+
 }
 
 header nav{
     float : right;
 }
     
- header h3{
+ header h2{
     color : #d93025;
     margin-left : 30px;
 }

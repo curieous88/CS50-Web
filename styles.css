@@ -80,6 +80,9 @@ nav ul li{
     cursor : pointer;
     align-self: center;
 }
+    .button{
+        align-self : center;
+    }
         
 .search-bar{
 /*     min-width: 167px; */

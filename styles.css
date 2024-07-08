@@ -20,17 +20,24 @@ header {
 
 }
 
-header nav{
-    float : right;
-}
+
     
  header h3{
     color : #d93025;
     margin-left : 30px;
     font-size : 26px;
     font-family: 'Oswald',sans-serif;
+   
 
 }
+/* 
+header nav span{
+    color : #d93025;
+    margin-left : 30px;
+    font-size : 26px;
+    font-family: 'Oswald',sans-serif;
+    align-items: center;
+} */
 
  nav ul {
     margin : 0;
@@ -44,10 +51,10 @@ header a{
     cursor : pointer;
     padding : 10px 20px ;
     color : white;
+    justify-content : flex-end;
 }
 
 nav ul li{
-    float : left;
     display : inline;
     padding-right : 5px;
 
@@ -178,7 +185,7 @@ span{
 
     }
 
-    .advanced-search-button : hover {
+    .advanced-search-button:hover {
       background-color : #aecbfa;
     }
     

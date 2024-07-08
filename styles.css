@@ -7,7 +7,7 @@ body{
 
 #top-nav{
     display : flex; 
-    justify-content : flex-end;
+    justify-content : space-between;
     width : 100%;
     align-items : center;
     margin : 0;}
@@ -17,7 +17,6 @@ header {
     height : 70px;
     margin-bottom : 30px;
     border: 1px solid #5f6368;
-
 }
 
 
@@ -26,23 +25,8 @@ header {
     color : #d93025;
     margin-left : 30px;
     font-size : 26px;
-    font-family: 'Oswald',sans-serif;
-   
-
-}
-/* 
-header nav span{
-    color : #d93025;
-    margin-left : 30px;
-    font-size : 26px;
-    font-family: 'Oswald',sans-serif;
-    align-items: center;
-} */
-
- nav ul {
-    margin : 0;
-    padding : 0;
-    text-align : center;
+    font-family: 'Oswald',sans-serif; 
+    padding : 10px 0px;
 }
 
 header a{
@@ -51,13 +35,11 @@ header a{
     cursor : pointer;
     padding : 10px 20px ;
     color : white;
-    justify-content : flex-end;
 }
 
 nav ul li{
     display : inline;
     padding-right : 5px;
-
 }
 
 #search-form{
@@ -87,12 +69,12 @@ nav ul li{
     cursor : pointer;
     align-self: center;
 }
-    .button{
+
+.button{
         align-self : center;
     }
         
 .search-bar{
-/*     min-width: 167px; */
     min-height: 25px;
     display : inline-block;
     width : 100%;
@@ -105,8 +87,7 @@ nav ul li{
 }
 
 
-    .split-search-bar{
-/*         min-width: 167px; */
+.split-search-bar{
         min-height: 25px;
         display : inline-block;
         width : 100%;
@@ -118,7 +99,13 @@ nav ul li{
         vertical-align : middle;
         gap : 4px;
     }
-        
+
+    .split-search-container {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-column-gap: 5px;
+        align-items: center;
+    }        
   
 
 .table h3{
@@ -170,6 +157,7 @@ span{
     display : flex;
     justify-self : flex-end;
     justify-content : center;
+    align-items: center;
     height : 30px;
     width : 25%;
     min-width : 60px;
@@ -180,9 +168,7 @@ span{
     border : #3079ed;
     cursor : default;
     font-size :11px;
-    text-align : center;
     font-weight : bold;
-
     }
 
     .advanced-search-button:hover {
